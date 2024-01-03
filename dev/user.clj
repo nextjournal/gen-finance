@@ -40,3 +40,11 @@
   [opts]
   (clerk/build!
    (merge static-defaults opts)))
+
+(comment
+  (clerk/build! {:index "notebooks/finance/model.clj"
+                 :cljs-namespaces '[gen-finance.sci-extensions]})
+
+  (clerk/serve! {:port 7788
+                 :index "notebooks/finance/model.clj"
+                 :cljs-namespaces '[gen-finance.sci-extensions]}))

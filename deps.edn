@@ -6,9 +6,10 @@
          io.github.inferenceql/gen.clj
          {:git/sha "8d427e95dc3a10c94b40305dac366f270b921c7c"}
 
-         io.github.nextjournal/clerk   {:git/sha "d80187013d7b7b96db3d8b114b8d99f687170668"}
+         ;; use clerk with SCI eval mode support
+         io.github.nextjournal/clerk   {:git/sha "3ef6cb45bfa7f7495f280be4c9523e00e342f3a3"}
          io.github.nextjournal/clerk.render
          {:git/url "https://github.com/nextjournal/clerk"
-          :git/sha "d80187013d7b7b96db3d8b114b8d99f687170668"
+          :git/sha "3ef6cb45bfa7f7495f280be4c9523e00e342f3a3"
           :deps/root "render"}}
  :aliases {:nextjournal/clerk {:exec-fn user/build!}}}

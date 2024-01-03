@@ -1,6 +1,6 @@
-^{:nextjournal.clerk/visibility {:code :hide}}
 (ns finance.model
-  {:nextjournal.clerk/toc true}
+  {:nextjournal.clerk/toc true
+   :nextjournal.clerk/eval :sci}
   (:require [clojure.set :as set]
             [emmy.clerk :as ec]
             [emmy.leva :as leva]
